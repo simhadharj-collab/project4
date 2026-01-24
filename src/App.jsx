@@ -1,15 +1,15 @@
-import React, { Component } from 'react'
+ import React, { Component } from 'react'
 import "./App.css";
 
 export default class App extends Component{
 constructor(){
   super();
   this.state={data:{
-    name:"M.SATYANARAYANA",
-    role:"data analyst",
-    bio:"enthuiast developer of google company",
+    name:"J.CHAKRA SIMHADHAR",
+    role:"ETHICAL HACKER OF MICROSOFT",
+    bio:"INTERN AT JP MORGAN CHASE",
     status:[{label: "posts", value:"84"},
-             {label:"followers", value:"2,5k"},
+             {label:"followers", value:"1000M"},
              {label:"following", value:"190"}]
 
 
@@ -25,6 +25,7 @@ constructor(){
       <div>App</div>
       <div className='app'>
                 <div className='profile'>
+                  
                     <img src={BASEURL+"image.png"} alt='' />
                     <div className='info'>
                         <legend className='name'>{data.name}</legend>
